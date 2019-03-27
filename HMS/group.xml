@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Group">
+
+	<test name="Test">
+
+		<groups>
+
+			<run>
+
+				<exclude name="smoke"></exclude>
+				<include name="reg"></include>
+
+			</run>
+
+		</groups>
+
+		<classes>
+
+			<class name="testNG.TestNGConcepts" />
+			<class name="testNGAnnotations.GroupsInNG" />
+
+		</classes>
+
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
