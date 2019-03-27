@@ -27,7 +27,7 @@ public class Annotations {
 	@Test(priority=3)
 	public void login() {
 		
-		
+		System.out.println("Login Success");
 	}
 	
 	@Test(priority=4,dependsOnMethods="login")
